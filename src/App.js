@@ -1,4 +1,9 @@
 import Logo from './assets/images/logo.png'
+import Texto from './assets/images/texto.jpeg'
+import Corona from './assets/images/corona.jpeg'
+import Grupo from './assets/images/grupo.png'
+import Natal from './assets/images/natal.jpeg'
+import Jovem from './assets/images/jovem-luterano.jpeg'
 
 function App() {
   return (
@@ -35,6 +40,19 @@ function App() {
         </div>
 
         <hr style={{ marginTop: '-12px' }} />
+
+        <div style={{ marginLeft: '50px' }}>
+          <div>
+            <img src={Texto} alt="texto" />
+            <img src={Corona} alt="corona" />
+          </div>
+
+          <div style={{ marginTop: '-3px' }}>
+            <img src={Grupo} alt="grupo" width="390" height="260" />
+            <img src={Natal} alt="natal" width="390" height="260" />
+            <img src={Jovem} alt="jovem" width="390" height="260" />
+          </div>
+        </div>
       </header>
     </div>
   )
