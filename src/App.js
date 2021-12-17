@@ -20,7 +20,7 @@ function App() {
               justifyItems: 'center',
               alignItems: 'center',
               color: '#8a8a5c',
-              fontSize: '15.8px',
+              fontSize: '16px',
               opacity: '0.62',
             }}
           >
