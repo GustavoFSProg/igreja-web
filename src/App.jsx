@@ -49,7 +49,7 @@ function App() {
               <img src={Corona} alt="corona" />
             </div>
 
-            <div style={{ marginTop: '-3px' }}>
+            <div style={{ marginTop: '-4px' }}>
               <img src={Grupo} alt="grupo" width="390" height="260" />
               <img src={Natal} alt="natal" width="390" height="260" />
               <img src={Jovem} alt="jovem" width="390" height="260" />
@@ -57,7 +57,9 @@ function App() {
           </div>
         </header>
       </div>
-      <Carrousel />
+      <div style={{ marginTop: '-1px' }}>
+        <Carrousel />
+      </div>
     </>
   )
 }
